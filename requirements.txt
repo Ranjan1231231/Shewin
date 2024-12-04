@@ -30,6 +30,7 @@ flask==2.2.2
 
 setuptools>=58.0.0
 wheel
+distlib
 
 fonttools==4.38.0; python_version >= '3.7'
 
