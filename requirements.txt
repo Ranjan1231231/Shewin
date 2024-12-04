@@ -28,8 +28,6 @@ flask-cors==3.0.10
 uvicorn == 0.20.0
 flask==2.2.2
 
-wheel
-
 fonttools==4.38.0; python_version >= '3.7'
 
 idna==3.4; python_version >= '3.5'
