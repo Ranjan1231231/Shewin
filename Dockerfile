@@ -3,7 +3,7 @@
 # RUN apt-get update
 # RUN apt-get install -y python3.8
 # ENTRYPOINT ["python3"]
-FROM python
+FROM python:3.11.10
 
 
 WORKDIR /app
