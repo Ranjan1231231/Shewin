@@ -2,20 +2,20 @@
 # FROM ubuntu:16.04
 # RUN apt-get update
 # RUN apt-get install -y python3.8
-# ENTRYPOINT ["python3"]
-FROM python
+# # ENTRYPOINT ["python3"]
+# FROM python
 
 
-WORKDIR /app
+# WORKDIR /app
 
-COPY ./requirements.txt .
+# COPY ./requirements.txt .
 # RUN python -c "import nltk; nltk.download('punkt')"
 
 # COPY ./tokenizers Appdata/Roaming/nltk_data/tokenizers
 
 # COPY ./tokenizers /root/nltk_data/tokenizers
-RUN pip install --no-cache-dir -r requirements.txt
-RUN python -m nltk.downloader punkt
+# RUN pip install --no-cache-dir -r requirements.txt
+# RUN python -m nltk.downloader punkt
 
 COPY . .
 
